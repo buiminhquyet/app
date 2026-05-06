@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_cyan">#0ea5e9</color>
+    <color name="accent_pink">#f43f5e</color>
+    <color name="accent_purple">#a855f7</color>
+    <color name="background_dark">#020617</color>
+    <color name="card_dark">#0f172a</color>
+    <color name="error_red">#ef4444</color>
+    <color name="nav_inactive">#64748b</color>
+    <color name="nav_item_color">#cbd5e1</color>
+    <color name="success_green">#22c55e</color>
+    <color name="text_gray">#cbd5e1</color>
+    <color name="text_white">#ffffff</color>
+    <string name="app_name">QUYET ELITE</string>
+    <style name="Theme.Material3.DayNight" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#5c54e5</item>
+        <item name="colorSecondary">#10b981</item>
+    </style>
+</resources>

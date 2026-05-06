@@ -1,0 +1,207 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.quyetdev.bankforwarder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:8:5-77
+14-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+15-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:9:5-89
+15-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:9:22-86
+16
+17    <permission
+17-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\baca190bca68995caec39094b0dd410a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.quyetdev.bankforwarder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\baca190bca68995caec39094b0dd410a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\baca190bca68995caec39094b0dd410a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.quyetdev.bankforwarder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\baca190bca68995caec39094b0dd410a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\baca190bca68995caec39094b0dd410a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:11:5-63:19
+24        android:allowBackup="true"
+24-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:12:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\baca190bca68995caec39094b0dd410a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@drawable/ic_launcher"
+28-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:13:9-45
+29        android:label="@string/app_name"
+29-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:14:9-41
+30        android:roundIcon="@drawable/ic_launcher"
+30-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:15:9-50
+31        android:supportsRtl="true"
+31-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.Material3.DayNight" >
+33-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:17:9-56
+34        <activity
+34-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:19:9-26:20
+35            android:name="com.quyetdev.bankforwarder.SplashActivity"
+35-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:20:13-43
+36            android:exported="true" >
+36-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:21:13-36
+37            <intent-filter>
+37-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:22:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:24:17-77
+40-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:28:9-30:40
+44            android:name="com.quyetdev.bankforwarder.LoginActivity"
+44-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:29:13-42
+45            android:exported="false" />
+45-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:30:13-37
+46        <activity
+46-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:32:9-34:40
+47            android:name="com.quyetdev.bankforwarder.MainActivity"
+47-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:33:13-41
+48            android:exported="false" />
+48-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:34:13-37
+49        <activity
+49-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:36:9-38:40
+50            android:name="com.quyetdev.bankforwarder.RegisterActivity"
+50-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:37:13-45
+51            android:exported="false" />
+51-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:38:13-37
+52        <activity
+52-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:40:9-42:40
+53            android:name="com.quyetdev.bankforwarder.ApiDocsActivity"
+53-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:41:13-44
+54            android:exported="false" />
+54-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:42:13-37
+55
+56        <service
+56-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:44:9-55:19
+57            android:name="com.quyetdev.bankforwarder.BankNotificationService"
+57-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:45:13-52
+58            android:exported="true"
+58-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:49:13-36
+59            android:foregroundServiceType="specialUse"
+59-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:48:13-55
+60            android:label="Bank Forwarder Service"
+60-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:46:13-51
+61            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+61-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:47:13-87
+62            <intent-filter>
+62-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:50:13-52:29
+63                <action android:name="android.service.notification.NotificationListenerService" />
+63-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:51:17-99
+63-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:51:25-96
+64            </intent-filter>
+65
+66            <property
+66-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:53:13-54:117
+67                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+67-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:53:23-82
+68                android:value="Used to forward bank notifications from phone to server for automated accounting." />
+68-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:54:17-114
+69        </service>
+70
+71        <receiver
+71-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:57:9-61:20
+72            android:name="com.quyetdev.bankforwarder.BootReceiver"
+72-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:57:19-47
+73            android:exported="true" >
+73-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:57:48-71
+74            <intent-filter>
+74-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:58:13-60:29
+75                <action android:name="android.intent.action.BOOT_COMPLETED" />
+75-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:59:17-79
+75-->C:\apptool\android_source\app\src\main\AndroidManifest.xml:59:25-76
+76            </intent-filter>
+77        </receiver>
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3defcaf107c3e2769f42a731edac96fd\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3defcaf107c3e2769f42a731edac96fd\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.quyetdev.bankforwarder.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3defcaf107c3e2769f42a731edac96fd\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3defcaf107c3e2769f42a731edac96fd\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3defcaf107c3e2769f42a731edac96fd\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3defcaf107c3e2769f42a731edac96fd\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3defcaf107c3e2769f42a731edac96fd\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Admin\.gradle\caches\transforms-3\803d037bc9ed5f8814de01f63695463d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Admin\.gradle\caches\transforms-3\803d037bc9ed5f8814de01f63695463d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Admin\.gradle\caches\transforms-3\803d037bc9ed5f8814de01f63695463d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c083c17cc176e62f05957ee37206a81c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>

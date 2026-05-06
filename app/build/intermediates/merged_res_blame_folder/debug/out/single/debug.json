@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_ic_quyet_logo.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\ic_quyet_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_card_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_item_webhook.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\item_webhook.xml"
+    },
+    {
+        "merged": "com.quyetdev.bankforwarder.app-merged_res-32:/layout_fragment_home.xml.flat",
+        "source": "com.quyetdev.bankforwarder.app-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_bg_gradient_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\bg_gradient_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_card_bg_premium.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\card_bg_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_activity_api_docs.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_api_docs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_ic_facebook.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\ic_facebook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_fragment_admin.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_edit_text_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_btn_gradient_primary.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\btn_gradient_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_input_bg_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\input_bg_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_fragment_api.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_ic_zalo.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\ic_zalo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_card_bg_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\card_bg_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_fragment_nap.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_nap.xml"
+    },
+    {
+        "merged": "com.quyetdev.bankforwarder.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.quyetdev.bankforwarder.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\drawable_ic_phone_support.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\drawable\\ic_phone_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-merged_res-32:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_home.xml"
+    }
+]

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TẠO TÀI KHOẢN"
+        android:textColor="@color/text_white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_bg_premium"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỐ ĐIỆN THOẠI"
+            android:textColor="@color/accent_cyan"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/editRegPhone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/card_bg_premium"
+            android:padding="16dp"
+            android:textColor="@color/text_white"
+            android:inputType="phone"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MẬT KHẨU"
+            android:textColor="@color/accent_cyan"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/editRegPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/card_bg_premium"
+            android:padding="16dp"
+            android:textColor="@color/text_white"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XÁC NHẬN MẬT KHẨU"
+            android:textColor="@color/accent_cyan"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/editRegConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/card_bg_premium"
+            android:padding="16dp"
+            android:textColor="@color/text_white"
+            android:inputType="textPassword"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnRegisterSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ĐĂNG KÝ NGAY"
+            android:backgroundTint="@color/accent_pink"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnLoginBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã có tài khoản? Đăng nhập"
+            android:textColor="@color/text_gray"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

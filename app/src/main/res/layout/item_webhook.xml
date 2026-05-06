@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg_premium"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CẤU HÌNH Ô RIÊNG"
+            android:textColor="@color/accent_cyan"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/btnRemoveWebhook"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:padding="6dp"
+            android:background="@drawable/card_bg_premium"
+            android:backgroundTint="@color/error_red" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editWebhookUrl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#020617"
+        android:hint="Link API kết nối Web"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/text_gray"
+        android:textSize="12sp"
+        android:inputType="textUri"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editWebhookToken"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#020617"
+        android:hint="Mã bảo mật (Token)"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/text_gray"
+        android:textSize="12sp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editWebhookKeywords"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#020617"
+        android:hint="Từ khóa lọc (Ví dụ: NAPTIEN)"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/text_gray"
+        android:textSize="12sp" />
+
+</LinearLayout>

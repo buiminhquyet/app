@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ TÀI KHOẢN"
+            android:textColor="@color/text_white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Balance Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg_premium"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số Dư Khả Dụng"
+                android:textColor="@color/text_gray"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/txtBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0đ"
+                android:textColor="@color/success_green"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Turns Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg_premium"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LƯỢT GỬI CÒN LẠI"
+                android:textColor="@color/accent_pink"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:id="@+id/txtRemainingTurns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 lượt"
+                android:textColor="@color/text_white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Subscription Packages -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg_premium"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NÂNG CẤP GÓI CƯỚC"
+                android:textColor="@color/accent_cyan"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+            
+            <!-- Premium Pack 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnPack1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="#1e293b">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="20dp"
+                    android:background="@drawable/card_bg_premium"
+                    android:backgroundTint="#0ea5e9">
+                    <TextView
+                        android:id="@+id/txtPack1Info"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GÓI CƠ BẢN\n50,000đ"
+                        android:textColor="@color/text_white"
+                        android:textStyle="bold"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/txtPack1Turns"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100 LƯỢT"
+                        android:textColor="@color/text_white"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Premium Pack 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnPack2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="#1e293b">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="20dp"
+                    android:background="@drawable/card_bg_premium"
+                    android:backgroundTint="#a855f7">
+                    <TextView
+                        android:id="@+id/txtPack2Info"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GÓI VIP\n100,000đ"
+                        android:textColor="@color/text_white"
+                        android:textStyle="bold"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/txtPack2Turns"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="150 LƯỢT"
+                        android:textColor="@color/text_white"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Premium Pack 3 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnPack3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="#1e293b">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="20dp"
+                    android:background="@drawable/card_bg_premium"
+                    android:backgroundTint="#f43f5e">
+                    <TextView
+                        android:id="@+id/txtPack3Info"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GÓI VÔ HẠN\n300,000đ"
+                        android:textColor="@color/text_white"
+                        android:textStyle="bold"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/txtPack3Turns"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 THÁNG"
+                        android:textColor="@color/text_white"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Switch
+                android:id="@+id/switchAutoRenew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tự động gia hạn (Trừ tiền tk app)"
+                android:textColor="@color/text_white"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- HỖ TRỢ KHÁCH HÀNG -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HỖ TRỢ KHÁCH HÀNG"
+            android:textColor="@color/accent_cyan"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/card_bg_premium"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:id="@+id/btnOpenFb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_facebook"
+                android:padding="5dp"
+                android:layout_marginEnd="20dp" />
+
+            <ImageView
+                android:id="@+id/btnOpenZalo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_zalo"
+                android:padding="5dp"
+                android:layout_marginEnd="20dp" />
+
+            <ImageView
+                android:id="@+id/btnCallPhone"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_phone_support"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <!-- QUYỀN TRUY CẬP APP -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚙️ QUYỀN TRUY CẬP APP"
+            android:textColor="@color/text_gray"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg_premium"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="40dp">
+
+            <Button
+                android:id="@+id/btnNotifyPermission"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Cấp Quyền Thông Báo"
+                android:backgroundTint="#064e3b"
+                android:textColor="@color/success_green"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnBatteryOptimization"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tắt Tối Ưu Pin (Chạy Ngầm)"
+                android:backgroundTint="#451a03"
+                android:textColor="#f59e0b" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

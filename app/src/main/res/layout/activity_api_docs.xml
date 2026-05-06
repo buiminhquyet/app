@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0f172a"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/text_white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TÀI LIỆU TÍCH HỢP WEB"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Cấu hình phía Web (PHP)"
+                android:textColor="@color/accent_cyan"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copy đoạn mã dưới đây vào file nhận thông báo của bạn (ví dụ: api.php):"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp"
+                android:layout_marginBottom="12dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#020617"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtCodeSnippet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="&lt;?php\n// Mã Master Token bạn lấy từ App\n$PRIVATE_TOKEN = 'DÁN_TOKEN_CỦA_BẠN_VÀO_ĐÂY';\n\n// Nhận Token từ App gửi lên\n$receivedToken = $_POST['token'] ?? $_SERVER['HTTP_TOKEN'] ?? '';\n\nif ($receivedToken !== $PRIVATE_TOKEN) {\n    exit('Unauthorized access.');\n}\n\n// Nhận nội dung ngân hàng\n$content = $_POST['content'] ?? '';\n$title = $_POST['title'] ?? '';\n\n// LOGIC XỬ LÝ CỘNG TIỀN CỦA BẠN TẠI ĐÂY\n// ...\n\necho 'OK';\n?&gt;"
+                    android:textColor="#94a3b8"
+                    android:textSize="12sp"
+                    android:fontFamily="monospace" />
+
+                <Button
+                    android:id="@+id/btnCopySnippet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/txtCodeSnippet"
+                    android:layout_marginTop="16dp"
+                    android:layout_alignParentEnd="true"
+                    android:text="SAO CHÉP MÃ"
+                    android:backgroundTint="#0ea5e9"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n2. Các tham số dữ liệu gửi lên:"
+                android:textColor="@color/accent_cyan"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• token: Mã bảo mật cá nhân.\n• title: Tên ứng dụng ngân hàng.\n• content: Nội dung đầy đủ của thông báo.\n• timestamp: Thời gian nhận thông báo."
+                android:textColor="@color/text_gray"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

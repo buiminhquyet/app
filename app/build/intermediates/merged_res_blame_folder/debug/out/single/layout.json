@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\fragment_api.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.quyetdev.bankforwarder.app-mergeDebugResources-31:/layout/fragment_home.xml",
+        "source": "com.quyetdev.bankforwarder.app-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.quyetdev.bankforwarder.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "com.quyetdev.bankforwarder.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\fragment_nap.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_nap.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\item_webhook.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\item_webhook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\fragment_admin.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\fragment_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\activity_api_docs.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_api_docs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-mergeDebugResources-31:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2.1\\com.quyetdev.bankforwarder.app-main-34:\\layout\\activity_main.xml"
+    }
+]

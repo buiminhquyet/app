@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- QUẢN LÝ GÓI CƯỚC -->
+        <!-- THÔNG TIN HỖ TRỢ -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÔNG TIN LIÊN HỆ HỖ TRỢ"
+            android:textColor="@color/accent_cyan"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg_premium"
+            android:padding="16dp">
+            
+            <EditText android:id="@+id/editFbLink" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Link Facebook" android:textColorHint="#444" android:textColor="@color/text_white" android:background="@drawable/card_bg_premium" android:paddingHorizontal="12dp" android:layout_marginBottom="10dp"/>
+            <EditText android:id="@+id/editZaloLink" android:layout_width="match_parent" android:layout_height="50dp" android:hint="SĐT/Link Zalo" android:textColorHint="#444" android:textColor="@color/text_white" android:background="@drawable/card_bg_premium" android:paddingHorizontal="12dp" android:layout_marginBottom="10dp"/>
+            <EditText android:id="@+id/editSupportPhone" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Số điện thoại gọi" android:textColorHint="#444" android:textColor="@color/text_white" android:background="@drawable/card_bg_premium" android:paddingHorizontal="12dp" android:layout_marginBottom="15dp"/>
+
+            <Button android:id="@+id/btnSaveSupport" android:layout_width="match_parent" android:layout_height="50dp" android:text="LƯU THÔNG TIN HỖ TRỢ" android:backgroundTint="@color/accent_cyan" android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- CẤU HÌNH TELEGRAM MONITORING -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CẤU HÌNH TELEGRAM MONITORING"
+            android:textColor="@color/accent_cyan"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg_premium"
+            android:padding="16dp">
+            
+            <EditText android:id="@+id/editTeleToken" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Telegram Bot Token" android:textColorHint="#444" android:textColor="@color/text_white" android:background="@drawable/card_bg_premium" android:paddingHorizontal="12dp" android:layout_marginBottom="10dp"/>
+            <EditText android:id="@+id/editTeleChatId" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Telegram Chat ID" android:textColorHint="#444" android:textColor="@color/text_white" android:background="@drawable/card_bg_premium" android:paddingHorizontal="12dp" android:layout_marginBottom="15dp"/>
+
+            <Button android:id="@+id/btnSaveTele" android:layout_width="match_parent" android:layout_height="50dp" android:text="LƯU CẤU HÌNH TELEGRAM" android:backgroundTint="@color/accent_purple" android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ GÓI CƯỚC"
+            android:textColor="@color/accent_cyan"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg_premium"
+            android:padding="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GÓI 1 (Cơ bản)" android:textColor="@color/text_white" android:textSize="12sp" android:textStyle="bold"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp">
+                <EditText android:id="@+id/editPack1Price" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="1" android:hint="Giá (đ)" android:textColorHint="#444" android:textColor="@color/text_white" android:inputType="number" android:background="@drawable/card_bg_premium" android:paddingHorizontal="10dp"/>
+                <EditText android:id="@+id/editPack1Turns" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="1" android:hint="Lượt" android:textColorHint="#444" android:textColor="@color/text_white" android:inputType="number" android:background="@drawable/card_bg_premium" android:paddingHorizontal="10dp" android:layout_marginStart="10dp"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GÓI 2 (VIP)" android:textColor="@color/text_white" android:textSize="12sp" android:textStyle="bold" android:layout_marginTop="15dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp">
+                <EditText android:id="@+id/editPack2Price" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="1" android:hint="Giá (đ)" android:textColorHint="#444" android:textColor="@color/text_white" android:inputType="number" android:background="@drawable/card_bg_premium" android:paddingHorizontal="10dp"/>
+                <EditText android:id="@+id/editPack2Turns" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="1" android:hint="Lượt" android:textColorHint="#444" android:textColor="@color/text_white" android:inputType="number" android:background="@drawable/card_bg_premium" android:paddingHorizontal="10dp" android:layout_marginStart="10dp"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GÓI 3 (Vô hạn)" android:textColor="@color/text_white" android:textSize="12sp" android:textStyle="bold" android:layout_marginTop="15dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp">
+                <EditText android:id="@+id/editPack3Price" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="1" android:hint="Giá (đ)" android:textColorHint="#444" android:textColor="@color/text_white" android:inputType="number" android:background="@drawable/card_bg_premium" android:paddingHorizontal="10dp"/>
+                <EditText android:id="@+id/editPack3Turns" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="1" android:hint="Lượt" android:textColorHint="#444" android:textColor="@color/text_white" android:inputType="number" android:background="@drawable/card_bg_premium" android:paddingHorizontal="10dp" android:layout_marginStart="10dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSavePacks"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="CẬP NHẬT GÓI CƯỚC"
+                android:backgroundTint="@color/accent_cyan"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CẤU HÌNH HỆ THỐNG"
+            android:textColor="@color/text_white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg_premium"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Bank Code -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MÃ NGÂN HÀNG (VD: MB, VCB)"
+                android:textColor="@color/accent_purple"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/editBankCode"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/card_bg_premium"
+                android:padding="16dp"
+                android:textColor="@color/text_white"
+                android:layout_marginBottom="15dp" />
+
+            <!-- Bank Prefix -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TỪ KHÓA NẠP TIỀN (VD: QUYETDEV, NAPTIEN)"
+                android:textColor="@color/accent_cyan"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/editBankPrefix"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/card_bg_premium"
+                android:hint="Mặc định: QUYETDEV"
+                android:padding="16dp"
+                android:textColor="@color/text_white"
+                android:textColorHint="#444"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Account Number -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SỐ TÀI KHOẢN NHẬN TIỀN"
+                android:textColor="@color/accent_cyan"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/editAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/card_bg_premium"
+                android:padding="16dp"
+                android:textColor="@color/text_white"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Account Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TÊN CHỦ TÀI KHOẢN"
+                android:textColor="@color/accent_cyan"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/editAccountName"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/card_bg_premium"
+                android:padding="16dp"
+                android:textColor="@color/text_white"
+                android:layout_marginBottom="24dp" />
+
+            <Button
+                android:id="@+id/btnSaveAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="LƯU CẤU HÌNH"
+                android:backgroundTint="@color/accent_purple"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp" />
+
+            <!-- User Management Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👤 QUẢN LÝ TÀI KHOẢN NGƯỜI DÙNG"
+                android:textColor="@color/accent_pink"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/editTargetPhone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#020617"
+                android:hint="Nhập SĐT cần cộng/trừ tiền"
+                android:padding="16dp"
+                android:textColor="@color/text_white"
+                android:textColorHint="@color/text_gray"
+                android:inputType="phone"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnAddMoney"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="+50,000"
+                    android:backgroundTint="@color/success_green"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:id="@+id/btnSubMoney"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="-50,000"
+                    android:backgroundTint="@color/error_red" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
